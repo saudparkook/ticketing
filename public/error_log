@@ -1,0 +1,179 @@
+[08-May-2022 09:23:22 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.29. in /home/thaco/public_html/tha/vendor/composer/platform_check.php on line 24
+[08-May-2022 09:23:24 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.29. in /home/thaco/public_html/tha/vendor/composer/platform_check.php on line 24
+[08-May-2022 09:32:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.29. in /home/thaco/public_html/tha/vendor/composer/platform_check.php on line 24
+[08-May-2022 09:32:30 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.29. in /home/thaco/public_html/tha/vendor/composer/platform_check.php on line 24
+[08-May-2022 09:32:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#12 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#13 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#12 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[08-May-2022 09:32:54 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#12 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#13 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#12 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[08-May-2022 09:33:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#12 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#13 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#12 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[08-May-2022 09:33:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#12 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#13 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#12 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
+[08-May-2022 09:33:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "config" does not exist in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:875
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#12 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#13 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [config] does not exist. in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build('config')
+#1 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve('config', Array, true)
+#2 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#3 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make('config', Array)
+#4 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php(1415): Illuminate\Foundation\Application->make('config')
+#5 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(469): Illuminate\Container\Container->offsetGet('config')
+#6 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(520): Illuminate\Log\LogManager->getDefaultDriver()
+#7 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\Log\LogManager->parseDriver(NULL)
+#8 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(656): Illuminate\Log\LogManager->driver()
+#9 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\Log\LogManager->log('error', 'Call to undefin...', Array)
+#10 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): Illuminate\Foundation\Exceptions\Handler->report(Object(Error))
+#11 /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\Foundation\Http\Kernel->reportException(Object(Error))
+#12 /home/thaco/public_html/tha/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#13 {main}
+  thrown in /home/thaco/public_html/tha/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 877
